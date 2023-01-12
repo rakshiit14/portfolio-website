@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    color: whitesmoke;
+
+}
+html, body{
+    background-color: rgba(85,56,156,.3);
+    padding: 0px;
+    margin: 0px;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav li{
+    display: inline;
+}
+.nav ul{
+    margin: 0px;
+}
+.nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid gray;
+}
+.nav a:hover{
+    color: gray;
+}
+.nav li{
+    padding: 0 5%;
+}
+.header{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images/header_background.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+}
+.large-heading{
+    font-size: 6em;
+}
+.content {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.about {
+    font-family: 'Metal Mania', cursive;
+    font-weight: normal;
+    color: whitesmoke;
+    font-size: 2.5em;
+    text-align: center;
+}
+.myimage{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.button {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0.67em;
+    color: white;
+    border: 2px solid darkblue;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30%;
+}
+.button:hover{
+    color: black;
+}
+
+.button-space{
+    text-align: center;
+    margin: 20px;
+}
+
+.footer li{
+    padding: 0.5em;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+}
